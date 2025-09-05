@@ -6,7 +6,7 @@ We have a list of boxes
 ```
 b_0[1, 5], b_1[-3, 5], b_2[7, 9], b_3[1, 5] ... b_n-1[7, 9], b_n[0, 50]
 ```
-These boxes represet a frame captured from a camera. But we do not want to process duplicate frames. 
+These boxes represet a frames captured from a some tracking algorithm. But we do not want to process duplicate frames. 
 We need to find a way to dedupliate the list... 
 
 ## Assumptions: 
