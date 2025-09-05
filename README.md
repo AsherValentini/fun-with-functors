@@ -1,4 +1,4 @@
-# fun-with-functors
+# Deduplicate Box Frames
 How do functors, static member functions, and lambdas interact with stl containers and std algos? Heres a small driver script I built to show you :)
 
 ## Context: 
