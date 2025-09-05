@@ -14,7 +14,8 @@ For this sandbox I assume that a box is a duplicate if its top right and bottom 
 ```
 b_x[bottom_left, top_right]
 ```
-By that definition boxes b_0 and b_3 are duplicates (oof). 
+By that definition boxes b_0 and b_3 are duplicates (oof) and there might be more (double oof).
+Would be a pity if we spent CPU power repeating the same downstream frame handler process...
 
 ## Soln: 
 Review the code to see how to achieve some sort of deduplication :) hope this helps. 
